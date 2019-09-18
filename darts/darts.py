@@ -9,4 +9,4 @@ def score(x, y):
     else:
         print("You earned no points")
     
-score(0, 0)
+score(0, 1)
