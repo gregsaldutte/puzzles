@@ -10,7 +10,7 @@ def find_anagrams(word, candidates):
                 cand_temp_list.remove(letter)
         
         
-        if cand_temp_list==[]:
+        if cand_temp_list==[] and word.lower()!=cand.lower():
             cand_list.append(cand)
     
     return cand_list
