@@ -16,4 +16,3 @@ def find_anagrams(word, candidates):
     
     return cand_list
 
-print(find_anagrams('mass',['last']))
