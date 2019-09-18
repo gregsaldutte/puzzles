@@ -8,7 +8,8 @@ def find_anagrams(word, candidates):
         for letter in word_list:
             if letter in cand_temp_list:
                 cand_temp_list.remove(letter)
-        
+            else:
+                break
         
         if cand_temp_list==[] and word.lower()!=cand.lower():
             cand_list.append(cand)
