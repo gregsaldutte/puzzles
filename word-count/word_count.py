@@ -20,6 +20,5 @@ def count_words(sentence):
             word_count_dict[item] += 1
     return word_count_dict
 
-result_dict = count_words("That's the password: 'PASSWORD 123'!\", cried the Special Agent.\nSo I fled.")
-print(result_dict)
+
     
