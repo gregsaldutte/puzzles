@@ -1,8 +1,10 @@
 def find_anagrams(word, candidates):
     cand_list = []
     word_list = list(word.lower()).sort()
+    print(word_list)
     for cand in candidates:
         cand_list_temp = list(cand.lower()).sort()
+        print(cand_list_temp)
         # The anagram should be of the same letter, and each letter appears for the same time, and could not be itself
         # Case insensitive
         if cand_list_temp==word_list and len(word)==len(cand) and word.lower()!=cand.lower():
@@ -10,3 +12,4 @@ def find_anagrams(word, candidates):
     
     return cand_list
 
+print(find_anagrams('mass',['last']))
