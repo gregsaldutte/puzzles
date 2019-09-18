@@ -11,11 +11,5 @@ def leap_year(year):
         else:
             return True
 
-year = input("Please choose the year:")
-try:
-    year = int(year)
-except TypeError:
-    print("Please input an integer!")
 
-print(leap_year(year))
 
