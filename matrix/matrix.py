@@ -21,8 +21,7 @@ class Matrix:
                 if j==0:
                     column_list.append([int(col_element.split()[i])])
                 else:
-                    column_list[i].append(int(col_element.split()[i]))
-                    
+                    column_list[i].append(int(col_element.split()[i]))                 
         return(column_list[index-1])
     
 

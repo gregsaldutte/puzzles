@@ -1,6 +1,5 @@
 def count_words(sentence):
     word_count_dict = {}
-
     sentence_lower = sentence.lower()
     alphabet = 'abcdefghijklmnopqrstuvwxyz'
     number = '0123456789'
