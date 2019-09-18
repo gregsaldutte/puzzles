@@ -3,7 +3,6 @@ def count_words(sentence):
     sentence_lower = sentence.lower()
     alphabet = 'abcdefghijklmnopqrstuvwxyz'
     number = '0123456789'
-    
     temp_word = []  # this is a list to store any alphabet or number
     # Go over each letter in sentence_lower 
     for i in range(len(sentence_lower)):
