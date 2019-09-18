@@ -17,3 +17,4 @@ except TypeError:
     print("Please input an integer!")
 
 print(leap_year(year))
+# New test
