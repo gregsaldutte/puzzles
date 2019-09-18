@@ -1,4 +1,5 @@
 def leap_year(year):
+
     if not isinstance(year,int):
         raise TypeError("Year entered must be an integer!")
     if year%4==0:
@@ -9,12 +10,7 @@ def leap_year(year):
                 return False
         else:
             return True
+    else:
+        return False
+    
 
-year = input("Please choose the year:")
-try:
-    year = int(year)
-except TypeError:
-    print("Please input an integer!")
-
-print(leap_year(year))
-# New test
